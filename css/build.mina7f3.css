@@ -11372,12 +11372,17 @@ body .artwork-overlay__nav-link>span {
 }
 
 .text-image-cta-primary__title {
+    display:flex;
     margin-bottom: 50px;
+    justify-content: center;
     word-break: break-word;
 }
 
+
+
+
 .text-image-cta-primary__text {
-    margin-bottom: 50px;
+    float:left;
 }
 
 .text-image-cta-primary__content {
@@ -25863,5 +25868,12 @@ body.site-org .loading .circle-bg {
 
 
 .home-hero {
-    background-color: black;
+    background:black;
+}
+.home-hero img{
+    justify-content: center;
+    width: 30rem;
+    height: 30rem;
+    
+   
 }
