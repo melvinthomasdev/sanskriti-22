@@ -25983,10 +25983,11 @@ body.site-org .loading .circle-bg {
 
 
 /* Footer */
-
+.footer-main__middle{
+    margin-top: 0;
+}
 div.contact-header{
    /* text-align: center; */
-   margin-top: 10%;
 }
 div#contact-section div.flex.flex-container{
 display: flex;
@@ -26125,25 +26126,26 @@ div.flex.flex-container .contact-support ul li a{
 .footer-main-middle {
 
 } */
-=======
-    padding: 60px 40px 50px;
-    background-color:black;
-    
-    min-height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
 
-@media only screen and (max-width: 768px) {
-    .text-image-cta-primary__wrapper {
-        padding: 40px 20px 30px;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .home-hero img{
     
@@ -26159,4 +26161,3 @@ div.flex.flex-container .contact-support ul li a{
             max-width: 40rem;
     }
 }
->>>>>>> d1ab29a49cccea57ee00360034500075c36d3fae
